@@ -1,0 +1,84 @@
+#content-container {
+    position: relative;
+}
+
+#export-btn {
+    background-color: #04AB46;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cell-row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    border: 1px solid lightgray;
+    height: 40px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cell.header {
+    text-align: center;
+    background: #ddd;
+}
+
+.cell.header.active {
+    background: lightblue;
+    color: white;
+}
+
+.cell.selected-cell {
+    background-color: lightgray;
+    border: 2px solid lightblue;
+}
+
+#column-button-container {
+    position: absolute;
+    top: 66px;
+    left: 801px;
+}
+
+#add-column-btn {
+    width: 1rem;
+    height: 25rem;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#add-column-btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+#row-button-container {
+    position: absolute;
+    top: 29.3rem;
+}
+
+#add-row-btn {
+    width: 50rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#add-row-btn:hover {
+    background-color: gray;
+    color: white;
+}
